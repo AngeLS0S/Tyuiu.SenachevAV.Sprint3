@@ -10,7 +10,7 @@ namespace Tyuiu.SenachevAV.Sprint3.Task2.V11.Lib
 
             do
             {
-                sumSeries = sumSeries + (Math.Pow(1 / 3 + Math.Pow(value, startValue), startValue));
+                sumSeries = sumSeries + (Math.Pow(1 / (3 + Math.Pow(value, startValue)), startValue));
                 startValue++;
             } while (startValue <= stopValue);
             return Math.Round(sumSeries, 3);

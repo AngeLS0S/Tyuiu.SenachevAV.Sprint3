@@ -24,7 +24,7 @@ internal class Program
 
         double value = 0.5;
         int startValue = 1;
-        int stopValue = 16;
+        int stopValue = 15;
         Console.WriteLine("Переменная X = " + value);
         Console.WriteLine("Старт шага = " + startValue);
         Console.WriteLine("Конец шага = " + stopValue);

@@ -15,7 +15,7 @@ namespace Tyuiu.SenachevAV.Sprint3.Task2.V11.Test
             int stopValue = 15;
 
             double res = ds.GetSumSeries(value, startValue, stopValue);
-            double wait = 15.5;
+            double wait = 0.564;
 
             Assert.AreEqual(wait, res);
         }

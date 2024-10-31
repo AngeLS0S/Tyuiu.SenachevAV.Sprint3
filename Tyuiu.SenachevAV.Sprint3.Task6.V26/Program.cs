@@ -1,4 +1,4 @@
-﻿using Tyuiu.SenachevAV.Sprint3.Task6.V26.LIb;
+﻿using Tyuiu.SenachevAV.Sprint3.Task6.V26.Lib;
 
 internal class Program
 {

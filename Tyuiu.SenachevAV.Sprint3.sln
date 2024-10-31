@@ -59,7 +59,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.SenachevAV.Sprint3.Ta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.SenachevAV.Sprint3.Task6.V26.Test", "Tyuiu.SenachevAV.Sprint3.Task6.V26.Test\Tyuiu.SenachevAV.Sprint3.Task6.V26.Test.csproj", "{751BCB20-E79C-4013-947D-3C1E28FCBF31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.SenachevAV.Sprint3.Task6.V26.LIb", "Tyuiu.SenachevAV.Sprint3.Task6.V26.LIb\Tyuiu.SenachevAV.Sprint3.Task6.V26.LIb.csproj", "{7CAA7C95-27F3-4DF3-9C53-58C4B25009B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.SenachevAV.Sprint3.Task6.V26.Lib", "Tyuiu.SenachevAV.Sprint3.Task6.V26.LIb\Tyuiu.SenachevAV.Sprint3.Task6.V26.Lib.csproj", "{7CAA7C95-27F3-4DF3-9C53-58C4B25009B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

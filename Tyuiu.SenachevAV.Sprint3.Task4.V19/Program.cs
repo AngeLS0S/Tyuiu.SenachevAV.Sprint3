@@ -10,17 +10,19 @@ internal class Program
 
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* Спринт #3                                                               *");
-        Console.WriteLine("* Тема: Оператор цикла do-while                                           *");
-        Console.WriteLine("* Задание #2                                                              *");
-        Console.WriteLine("* Вариант #11                                                             *");
+        Console.WriteLine("* Тема: Использование операторов continue и break в циклах                *");
+        Console.WriteLine("* Задание #4                                                              *");
+        Console.WriteLine("* Вариант #19                                                             *");
         Console.WriteLine("* Выполнил: Сеначев Андрей Вячеславович | АСОиУб-24-1                     *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* УСЛОВИЕ:                                                                *");
-        Console.WriteLine("* Написать программу используя цикл do-while, которая вычисляет сумму     *");
-        Console.WriteLine("* ряда по формуле, при х=0,5                                              *");
+        Console.WriteLine("* На отрезке, где x принимает значения от -5 до 5, вычислить значение     *");
+        Console.WriteLine("* функции y=x/(cos(x) + x)+0.5 При х = 0 прервать цикл.                   *");
+        Console.WriteLine("* Полученные значения перемножать.                                        *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
         Console.WriteLine("***************************************************************************");
+
 
         int startValue = -5;
         int stopValue = 5;
@@ -34,7 +36,7 @@ internal class Program
 
 
 
-        Console.WriteLine("Сумма ряда = " + ds.Calculate( startValue, stopValue));
+        Console.WriteLine("Сумма ряда = " + ds.Calculate(startValue, stopValue));
         Console.ReadKey();
     }
 }

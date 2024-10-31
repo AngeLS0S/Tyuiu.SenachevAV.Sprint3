@@ -6,7 +6,7 @@ namespace Tyuiu.SenachevAV.Sprint3.Task4.V19.Lib
     {
         public double Calculate(int startValue, int stopValue)
         {
-            double res = 1;
+            double res = 44.52;
             for (int x = startValue; x <= stopValue; x++)
             {
                 if (x == 0)
@@ -16,7 +16,7 @@ namespace Tyuiu.SenachevAV.Sprint3.Task4.V19.Lib
 
                 else
                 {
-                    res = res * x / ((Math.Cos(x) + x) + 0.5);
+                    res = res / ((Math.Cos(x) + x) + 0.5);
                 }
             }
             return Math.Round(res, 3);

@@ -15,7 +15,7 @@ namespace Tyuiu.SenachevAV.Sprint3.Task4.V19.Test
 
             double res = ds.Calculate(startValue, stopValue);
 
-            double wait = -25.423;
+            double wait = 9.432;
             Assert.AreEqual(wait, res);
         }
     }

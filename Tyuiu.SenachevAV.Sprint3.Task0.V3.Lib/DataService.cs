@@ -7,7 +7,7 @@ namespace Tyuiu.SenachevAV.Sprint3.Task0.V3.Lib
     {
         public double GetSumSeries(int startValue, int stopValue)
         {   
-            double sumSeries = 0;
+            double sumSeries = 1;
             int i;
 
             for (i = startValue; i <= stopValue; i++)

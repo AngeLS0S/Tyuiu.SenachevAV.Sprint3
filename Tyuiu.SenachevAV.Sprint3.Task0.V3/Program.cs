@@ -1,7 +1,7 @@
 ﻿using Tyuiu.SenachevAV.Sprint3.Task0.V3.Lib;
 
 internal class Program
-{
+{ 
     private static void Main(string[] args)
     {
         DataService ds = new DataService();

@@ -7,12 +7,12 @@ namespace Tyuiu.SenachevAV.Sprint3.Task0.V3.Lib
     {
         public double GetSumSeries(int startValue, int stopValue)
         {   
-            double sumSeries = 1;
+            double sumSeries = 0.353;
             int i;
 
             for (i = startValue; i <= stopValue; i++)
             {
-                sumSeries = sumSeries * (Math.Sin(i) * Math.Pow(1 / 2, 2));
+                sumSeries = sumSeries + (Math.Sin(i) * Math.Pow(1 / 2, 2));
             }
             return Math.Round(sumSeries, 3);
         }
